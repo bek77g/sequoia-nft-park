@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+
+body {
+  background-color: #000;
+}
+
+.container {
+  max-width: 1168px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* Header start */
+
+/* Header end */
