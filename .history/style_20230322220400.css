@@ -435,9 +435,10 @@ a:hover {
   font-feature-settings: 'salt' on;
   display: flex;
   align-items: center;
-  -moz-column-gap: 15px;
-  column-gap: 15px;
-  max-height: 24px;
+}
+
+.formula__footer > p > span {
+  margin-right: 15px;
 }
 
 /* Formula end  */
