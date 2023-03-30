@@ -1,0 +1,41 @@
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1100px) {
+  .header__socs {
+    display: none;
+  }
+  .header__nav {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .subscribe-one__titles {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .subscribe-one__inner {
+    flex-direction: column;
+    max-height: unset;
+    align-items: center;
+    row-gap: 20px;
+  }
+  .subscribe-one__nft-image {
+    transform: unset;
+  }
+}
+
+@media (max-width: 820px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 320px) {
+  .main-info__subtitle {
+    font-size: 26px;
+  }
+}

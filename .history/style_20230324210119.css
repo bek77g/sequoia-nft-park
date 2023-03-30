@@ -145,12 +145,8 @@ a:hover {
   color: #c2e978;
 }
 
-.main-info__title {
+.main-info-title {
   margin: 8px 0;
-}
-
-.main-info__title svg {
-  width: 100%;
 }
 
 .main-info__middle {
@@ -382,9 +378,8 @@ a:hover {
   padding: 54px 42px;
   display: flex;
   -moz-column-gap: 30px;
-  gap: 30px;
-  justify-content: center;
-  flex-wrap: wrap;
+  column-gap: 30px;
+  justify-content: space-between;
 }
 
 .formula__subscribe-btn {
@@ -849,7 +844,7 @@ a:hover {
   line-height: 46px;
   letter-spacing: 0.05em;
   margin-bottom: 24px;
-  margin-left: 10vw;
+  margin-left: 8vw;
 }
 
 .slick-slide {

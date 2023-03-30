@@ -36,16 +36,6 @@ a:hover {
   margin: 0 auto;
 }
 
-.title {
-  font-family: 'StoneSoupNFW01-Regular', sans-serif;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 46px;
-  text-align: center;
-  letter-spacing: 0.05em;
-  margin-bottom: 24px;
-}
-
 /* Header start */
 
 .header {
@@ -145,12 +135,8 @@ a:hover {
   color: #c2e978;
 }
 
-.main-info__title {
+.main-info-title {
   margin: 8px 0;
-}
-
-.main-info__title svg {
-  width: 100%;
 }
 
 .main-info__middle {
@@ -382,9 +368,8 @@ a:hover {
   padding: 54px 42px;
   display: flex;
   -moz-column-gap: 30px;
-  gap: 30px;
-  justify-content: center;
-  flex-wrap: wrap;
+  column-gap: 30px;
+  justify-content: space-between;
 }
 
 .formula__subscribe-btn {
@@ -758,7 +743,7 @@ a:hover {
 }
 
 .mix-content__title {
-  font-family: 'StoneSoupNFW01-Regular', sans-serif;
+  font-family: 'StoneSoupNFW01', sans-serif;
   font-weight: 400;
   font-size: 48px;
   line-height: 46px;
@@ -833,23 +818,15 @@ a:hover {
   margin-bottom: 80px;
 }
 
-.roadmap__container {
-  max-width: 1300px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  overflow: hidden;
-}
-
 .roadmap__title {
-  font-family: 'StoneSoupNFW01-Regular', sans-serif;
+  font-family: 'StoneSoupNFW01', sans-serif;
   font-weight: 400;
   font-size: 48px;
   line-height: 46px;
   letter-spacing: 0.05em;
+  padding-left: 47px;
   margin-bottom: 24px;
-  margin-left: 10vw;
+  margin-left: 400px;
 }
 
 .slick-slide {
@@ -861,13 +838,12 @@ a:hover {
   -moz-column-gap: 10px;
   column-gap: 10px;
   justify-content: space-between;
-  padding-left: 5vw;
+  margin-left: 375px;
 }
 
 .roadmap-card {
   background: linear-gradient(180deg, #10121d 0%, #191d2e 100%);
-  min-width: 274px;
-  max-width: 300px;
+  width: 274px;
   height: 240px;
   flex-grow: 1;
   padding: 32px 0 84px 24px;
@@ -899,7 +875,7 @@ a:hover {
 }
 
 .team__title {
-  font-family: 'StoneSoupNFW01-Regular', sans-serif;
+  font-family: 'StoneSoupNFW01', sans-serif;
   font-weight: 400;
   font-size: 72px;
   line-height: 46px;
@@ -913,7 +889,6 @@ a:hover {
   -moz-column-gap: 19px;
   column-gap: 19px;
   text-align: center;
-  margin-left: 20px;
 }
 
 .team-card {
@@ -926,7 +901,7 @@ a:hover {
 }
 
 .team-card__name {
-  font-family: 'StoneSoupNFW01-Regular', sans-serif;
+  font-family: 'StoneSoupNFW01', sans-serif;
   font-weight: 400;
   font-size: 32px;
   line-height: 28px;
@@ -965,7 +940,7 @@ a:hover {
 }
 
 .footer-info__title {
-  font-family: 'StoneSoupNFW01-Regular', sans-serif;
+  font-family: 'StoneSoupNFW01', sans-serif;
   font-weight: 400;
   font-size: 48px;
   line-height: 46px;
@@ -975,7 +950,7 @@ a:hover {
 }
 
 .footer-info__title span {
-  font-family: 'StoneSoupNFW01-Regular', sans-serif;
+  font-family: 'StoneSoupNFW01', sans-serif;
   font-weight: 400;
   font-size: 53px;
   line-height: 65px;
@@ -992,7 +967,7 @@ a:hover {
 }
 
 .copy {
-  font-family: 'StoneSoupNFW01-Regular', sans-serif;
+  font-family: 'StoneSoupNFW01', sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 21px;

@@ -145,11 +145,11 @@ a:hover {
   color: #c2e978;
 }
 
-.main-info__title {
+.main-info-title {
   margin: 8px 0;
 }
 
-.main-info__title svg {
+.main-info-title > svg {
   width: 100%;
 }
 

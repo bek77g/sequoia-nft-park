@@ -149,7 +149,7 @@ a:hover {
   margin: 8px 0;
 }
 
-.main-info__title svg {
+.main-info__title > span > svg {
   width: 100%;
 }
 
